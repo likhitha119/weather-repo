@@ -4,7 +4,6 @@ function updateBackground() {
   document.body.style.background = 'url("images/sunny.jpeg") no-repeat center center fixed';
   document.body.style.backgroundSize = 'cover';
 }
-
 async function getWeather() {
   const city = document.getElementById('cityInput').value;
   if (!city) return alert('Enter a city name');
